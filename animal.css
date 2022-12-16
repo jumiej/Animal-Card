@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* div right */
+
+.div1 {
+    background-color: burlywood;
+    background-image: url("images/dog\ with\ eyes.png");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: contain;
+    width: 43.33%;
+    float: right;
+    height: 900px;
+    /* transform: skewY(6deg); */
+}
+/* div left */
+
+.div2{
+    /* background-color: skyblue; */
+    background-color: rgb(12, 204, 12);
+    background-image: url("images/puppy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23.33%;
+    float: left;
+    height: 900px;
+    /* transform: skewY(8deg); */
+    
+}
+
+/* div middle */
+
+.div3{
+    background-color: #fff;
+    width: 33.34%;
+    margin: 0 auto;
+    /* margin-left: 5px; */
+    height: 900px;
+    transform: skewY(15deg);
+    border: 1px solid black;
+    float: right;
+}
+
+.headingHome {
+    display: flex;
+    height: 70px;
+    /* border: red solid; */
+    justify-content: center; 
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    height: 70px;
+    /* border: red solid; */
+    justify-content: center; 
+    align-items: center;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.headingMiddl1{
+    margin-top: 25px;
+    display: flex;
+    height: 70px;
+    /* border: red solid; */
+    justify-content: center; 
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.headingleft {
+    display: flex;
+    height: 70px;
+    /* border: red solid; */
+    justify-content: center; 
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.calender{
+    font-size: large;
+    text-transform: uppercase;
+    margin-left: 6px;
+    letter-spacing: 4px;
+    color: whitesmoke;
+   
+}.difference {
+    margin-top: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+/* .who{
+    margin-left: 5px;
+} */
+.italic {
+    color: rgb(210, 75, 75);
+}
+
+.paraMiddle {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+
+
+.helping {
+    height: 250px;
+    /* margin-top: 5px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+    background-color: green;
+}
+
+.middleFooter {
+    /* width:433.33%; */
+    margin-left: 170px;
+    margin-top: 0;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin-right: 20px; */
+}
+.contact a{
+    text-decoration: none;
+}
+
+.visit {
+    letter-spacing: 5px;
+    margin-left: 50px;
+}
+
+.ourWeb {
+    margin-top: 2px;
+    color: rgb(8, 85, 8);
+}
+
+.leftPara{
+    color: rgb(18, 16, 16);
+    margin-top: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whoWe{
+    color: #fff;
+    margin-top: 5px;
+}
+
+.leftPara .second{
+    margin-top: 20px;
+}
+
+.leftPara .third{
+    margin-top: 20px;
+}
+
